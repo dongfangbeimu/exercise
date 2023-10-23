@@ -251,7 +251,3 @@ function getPassword(phone, password) {
     return 'userName='+encodeURIComponent(phone)+'&password='+encodeURIComponent(l.toString())
 }
 
-
-// console.log(getParams())
-
-// console.log(getPassword('15822217819@163.com', '123456'))
